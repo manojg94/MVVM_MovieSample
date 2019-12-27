@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/row_id"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/moviename"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="350dp" />
+
+        <TextView
+            android:id="@+id/runningtime"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/release"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/genre"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:layout_gravity="left">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/rating"
+                android:layout_marginTop="10dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/favorite"/>
+
+            <TextView
+                android:id="@+id/ratingrate"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="@color/colorBlack"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/votes"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/synopsis"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

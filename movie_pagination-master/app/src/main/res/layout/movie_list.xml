@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/row_id"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/moviename"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/rating"
+                android:layout_marginTop="10dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/favorite"/>
+
+            <TextView
+                android:id="@+id/ratingrate"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:padding="5dp"
+                android:textColor="@color/colorBlack"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
